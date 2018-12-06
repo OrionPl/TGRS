@@ -1,0 +1,3 @@
+﻿  TGRS.cpp
+c:\projects\tgrs\tgrs\tgrs\tgrs.cpp(35): error C2664: „SQLRETURN SQLGetDiagRecW(SQLSMALLINT,SQLHANDLE,SQLSMALLINT,SQLWCHAR *,SQLINTEGER *,SQLWCHAR *,SQLSMALLINT,SQLSMALLINT *)”: nie można dokonać konwersji argumentu 4 z „SQLCHAR [1024]” do „SQLWCHAR *”
+  c:\projects\tgrs\tgrs\tgrs\tgrs.cpp(35): note: Wskazane typy nie są powiązane; konwersja wymaga operatora reinterpret_cast, rzutowania w stylu języka C lub rzutowania w stylu funkcji
