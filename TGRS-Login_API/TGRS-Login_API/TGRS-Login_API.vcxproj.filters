@@ -18,6 +18,9 @@
     <ClInclude Include="Login_Handler.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Desktop\otlv4.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Login_Handler.cpp">
