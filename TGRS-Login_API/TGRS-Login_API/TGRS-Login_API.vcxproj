@@ -23,6 +23,7 @@
     <ProjectGuid>{8BA8E306-6C75-4CBC-88E3-3B8325A9EC1C}</ProjectGuid>
     <RootNamespace>TGRSLoginAPI</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <TargetFrameworkVersion>4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,11 +116,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Desktop\otlv4.h" />
     <ClInclude Include="Login_Handler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Login_Handler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
