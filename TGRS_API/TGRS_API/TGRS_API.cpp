@@ -2,14 +2,22 @@
 //
 
 #include "stdafx.h"
+#include <windows.h>
+#include <string>
+#include"Sql_Handler.h"
 
 
-extern "C"
+class nuda
 {
-	_declspec() bool checkIfLoggedIn()
+public:
+	Sql_Handler* pointer;
+	nuda()
 	{
-		return true;
+		pointer=new Sql_Handler();
 	}
+};
+int main()
+{
+	nuda jej;
+	jej.pointer->SqlQuery("localhost", 1, "random", "somerandompassword", "users", "users", "*", "username=orion", "name");
 }
-
-
