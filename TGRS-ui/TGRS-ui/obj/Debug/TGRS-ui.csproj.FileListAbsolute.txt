@@ -1,0 +1,17 @@
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-ui.exe.config
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-ui.exe
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-ui.pdb
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-CSharp-API.dll
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\MySql.Data.dll
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-CSharp-API.pdb
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\TGRS-CSharp-API.dll.config
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\bin\Debug\MySql.Data.xml
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.csprojAssemblyReference.cache
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS_ui.Form1.resources
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS_ui.Properties.Resources.resources
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.csproj.GenerateResource.cache
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.csproj.CoreCompileInputs.cache
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.csproj.CopyComplete
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.exe
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS-ui.pdb
+C:\Projects\TGRS\TGRS-ui\TGRS-ui\obj\Debug\TGRS_ui.Main.resources

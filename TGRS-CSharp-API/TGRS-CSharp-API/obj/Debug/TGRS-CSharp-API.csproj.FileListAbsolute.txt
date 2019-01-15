@@ -1,0 +1,12 @@
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\TGRS-CSharp-API.dll.config
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\TGRS-CSharp-API.dll
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\TGRS-CSharp-API.pdb
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\Google.Protobuf.dll
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\MySql.Data.dll
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\Google.Protobuf.xml
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\bin\Debug\MySql.Data.xml
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\obj\Debug\TGRS-CSharp-API.csproj.CoreCompileInputs.cache
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\obj\Debug\TGRS-CSharp-API.csproj.CopyComplete
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\obj\Debug\TGRS-CSharp-API.dll
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\obj\Debug\TGRS-CSharp-API.pdb
+C:\Projects\TGRS\TGRS-Csharp-API\TGRS-CSharp-API\obj\Debug\TGRS-CSharp-API.csprojAssemblyReference.cache
