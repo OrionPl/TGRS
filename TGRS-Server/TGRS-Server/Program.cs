@@ -14,7 +14,8 @@ namespace TGRS_Server
             TGRS_Server server = new TGRS_Server();
             Thread passChanger = new Thread(new ThreadStart(server.ChangeDBPassword));
             passChanger.Start();
-            
+            Networking networking = new Networking();
+            networking.ReceiveSendSocket();
         }
     }
 }

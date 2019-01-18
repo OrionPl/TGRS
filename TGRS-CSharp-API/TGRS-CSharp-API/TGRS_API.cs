@@ -22,31 +22,26 @@ namespace TGRS_CSharp_API
             return game;
         }
 
-        //public string SocketSendReceive()
-        //{
-        //    string request = "GET / HTTP/1.1\r\nHost: " + server +
-        //                     "\r\nConnection: Close\r\n\r\n";
-        //    Byte[] bytesSent = Encoding.ASCII.GetBytes(request);
-        //    Byte[] bytesReceived = new Byte[256];
+        private string ContactServer(string textToSend)
+        {
+            int port = 100;
+            string serverIp = "127.0.0.1";
             
-        //    using (Socket s = ConnectSocket(server, port))
-        //    {
+            TcpClient client = new TcpClient(serverIp, port);
+            NetworkStream nwStream = client.GetStream();
+            byte[] bytesToSend = ASCIIEncoding.ASCII.GetBytes(textToSend);
+            
+            nwStream.Write(bytesToSend, 0, bytesToSend.Length);
 
-        //        if (s == null)
-        //            return ("Connection failed");
-                
-        //        s.Send(bytesSent, bytesSent.Length, 0);
-                
-        //        int bytes = 0;
-        //        string page = "Default HTML page on " + server + ":\r\n";
-                
-        //        do
-        //        {
-        //            bytes = s.Receive(bytesReceived, bytesReceived.Length, 0);
-        //            page = page + Encoding.ASCII.GetString(bytesReceived, 0, bytes);
-        //        }
-        //        while (bytes > 0);
-        //    }
-        //}
+            byte[] bytesToRead = new byte[client.ReceiveBufferSize];
+            string ret = ASCIIEncoding.ASCII.GetString(bytesToRead);
+            client.Close();
+            return ret;
+        }
+
+        public string GetDatabasePassword()
+        {
+
+        }
     }
 }
